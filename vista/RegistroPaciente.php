@@ -8,7 +8,7 @@
 		<br>
 		<br>
 
-		<img src="FED.PNG" class="rounded" alt="" width="600" height="130" align="center"> 
+		<img src="REGISTRO.JPG" class="rounded" alt="" width="600" height="130" align="center"> 
 		<br>
 		<br>
 		<br>
@@ -29,29 +29,19 @@
 				<div class="panel panel-default">
 					<div class="panel-body">
 						<form action="registroCode.php" method="POST" role="form">
-							<legend>Registro de usuarios</legend>
+							<legend>Registro de Paciente</legend>
 							<div class="form-group">
-								<label for="nombre">Nombre </label>
-								<input type="text" name="txtNombre" class="form-control" id="nombre" autofocus required placeholder="Ingresa tu nombre">
+								<label for="ubicacion">Ubicacion </label>
+								<input type="text" name="txtUbicacion" class="form-control" id="Ubicacion" autofocus required placeholder="Ingresa tu Ubicacion">
 							</div>
 							
 							<div class="form-group">
-								<label for="email">E-mail</label>
-								<input type="email" name="txtEmail" class="form-control" id="email"  required placeholder="Ingresa tu dirección de e-mail">
-							</div>
-
-							<div class="form-group">
-								<label for="usuario">Usuario</label>
-								<input type="text" name="txtUsuario" class="form-control" id="usuario" autofocus required placeholder="usuario">
-							</div>
-
-							<div class="form-group">
-								<label for="password">Password</label>
-								<input type="password" name="txtPassword" class="form-control" required id="password" placeholder="****">
+								<label for="sintomas">Sintomas</label>
+								<input type="text" name="txtSintomas" class="form-control" id="Sintomas"  required placeholder="Ingresa tus Sintomas">
 							</div>
 
 							<button type="submit" class="btn btn-success">Registrar</button>
-						</form>
+							<button type="reset" class="btn btn-success">Limpiar</button>
 					</div>
 				</div>
 			</div>
